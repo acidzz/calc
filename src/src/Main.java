@@ -8,7 +8,7 @@ public class Main {
         Scanner scr = new Scanner(System.in);
         Calculator calculator = new Calculator();
         String exit = "нет";
-        while (!exit.equals("да")){
+              while (!exit.equals("да")){
             System.out.println("Первый аргумент");
             int arg1 = scr.nextInt();
             System.out.println("Второй аргумент");
